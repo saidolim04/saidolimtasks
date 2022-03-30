@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+body {
+  font-family: montserrat;
+}
+
+body header {
+  background-image: url(../images/bacground_img.svg);
+}
+
+body header nav {
+  position: fixed;
+  background-color: #ffffff;
+}
+
+body header nav .container {
+  padding-bottom: 20px;
+}
+
+body header nav .container a {
+  margin-top: 63px;
+  margin-left: 114px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  text-decoration: none;
+}
+
+body header nav .container a:nth-last-child(4) {
+  color: #fa4a0c;
+}
+
+body header nav .container a:hover {
+  color: #0084ff;
+}
+
+body .section1 {
+  background-image: url(../images/bacground_img.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .section1 .container h3 {
+  padding: 73px 0px 17px 0px;
+  color: #f7f7f7;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.1px;
+}
+
+body .section1 .container h1 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+body .section1 .container h4 {
+  padding: 27px 0px 54px 0px;
+  color: #f7f7f7;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+body .section1 .container .custom-btn {
+  text-align: center;
+  padding-bottom: 129px;
+}
+
+body .section1 .container .custom-btn .custom-btn-style {
+  padding: 16px 60px;
+  border-radius: 50px;
+  background-color: #fa4a0c;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+body .section1 .container .custom-btn .custom-btn-style2 {
+  margin-left: 40px;
+  padding: 16px 65px;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+body .section2 .container {
+  position: relative;
+  padding-bottom: 603px;
+  border-bottom: 3px solid #a4a4a4;
+  width: 884px;
+}
+
+body .section2 .container .tel_1 {
+  position: absolute;
+  -webkit-transform: translate(0, -31%);
+          transform: translate(0, -31%);
+  z-index: 1;
+}
+
+body .section2 .container .tel_2 {
+  position: absolute;
+  -webkit-transform: translate(128%, -10%);
+          transform: translate(128%, -10%);
+}
+
+body .section3 .container .row h2 {
+  padding-top: 72px;
+  padding-bottom: 59px;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+
+body .section3 .container .row .col h4 {
+  padding-top: 260px;
+  padding-bottom: 17px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #fa4a0c;
+}
+
+body .section3 .container .row .col h3 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+body .section3 .container .row .col h5 {
+  padding-top: 27px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+body .section4 {
+  background-image: url(../images/bacground_img2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .section4 .container h1 {
+  padding-top: 145px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+body .section4 .container h4 {
+  padding: 20px 0px 60px 0px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+body .section4 .container .custom-btn {
+  text-align: center;
+  padding-bottom: 131px;
+}
+
+body .section4 .container .custom-btn .custom-button1 {
+  background-color: #fa4a0c;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  width: 142px;
+  height: 64px;
+}
+
+body .section4 .container .custom-btn .custom-button2 {
+  margin-left: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: #ffffff;
+  width: 182px;
+  height: 64px;
+}
+
+body .section5 .container .col-8 {
+  padding: 53px 0px 68px 0px;
+}
+
+body .section5 .container .col-8 .col-4 {
+  /*
+    Auther: Abdelrhman Said
+*/
+  margin-left: 230px;
+}
+
+body .section5 .container .col-8 .col-4 * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .section5 .container .col-8 .col-4 *:focus,
+body .section5 .container .col-8 .col-4 *:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body .section5 .container .col-8 .col-4 html,
+body .section5 .container .col-8 .col-4 body {
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  place-items: center;
+  background: linear-gradient(315deg, #ffffff, #d7e1ec);
+}
+
+body .section5 .container .col-8 .col-4 .wrapper {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+body .section5 .container .col-8 .col-4 .wrapper .icon {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  -webkit-transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+body .section5 .container .col-8 .col-4 .wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+body .section5 .container .col-8 .col-4 .wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  -webkit-transform: translate(-50%) rotate(45deg);
+          transform: translate(-50%) rotate(45deg);
+  -webkit-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+body .section5 .container .col-8 .col-4 .wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+body .section5 .container .col-8 .col-4 .wrapper .facebook:hover,
+body .section5 .container .col-8 .col-4 .wrapper .facebook:hover .tooltip,
+body .section5 .container .col-8 .col-4 .wrapper .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+body .section5 .container .col-8 .col-4 .wrapper .twitter:hover,
+body .section5 .container .col-8 .col-4 .wrapper .twitter:hover .tooltip,
+body .section5 .container .col-8 .col-4 .wrapper .twitter:hover .tooltip::before {
+  background-color: #46c1f6;
+  color: #ffffff;
+}
+
+body .section5 .container .col-8 .col-4 .wrapper .instagram:hover,
+body .section5 .container .col-8 .col-4 .wrapper .instagram:hover .tooltip,
+body .section5 .container .col-8 .col-4 .wrapper .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+/*# sourceMappingURL=index.css.map */
