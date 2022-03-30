@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(./fonts/WorkSans-Regular.ttf);
+}
+
+
+body{
+    font-family: WorkSans;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .row{
+    justify-content: start;
+    padding: 45px 0;
+}
+
+nav ul{
+    margin-left: 165px;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav li a{
+    font-size: 15px;
+    line-height: 10px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 108px;
+    height: 36px;
+    position: fixed;
+    top: 92px;
+    left: -36px;
+    transform: rotateZ(90deg);
+    background-color: #39CDCC;
+}
+
+.contact a{
+    font-size: 10px;
+    line-height: 20px;
+    color: black;
+}
+.section1 h1 .section2 h1{
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 60px;
+    color: #333;
+}
+
+.section1 h2, .section2 h2{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #333;
+    margin-top: 32px;
+    margin-bottom: 30px;
+}
+
+button{
+    height: 50px;
+    width: 147px;
+    background-color: #EEEAFF;
+    border-radius: 5px;
+    padding: 0px 12px;
+    margin-right: 8px;
+}
+
+.h1{
+    text-align: left;
+    font-size: 9px;
+}
+
+.h2{
+    font-size: 17px;
+    color: #582EFF;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+}
+
+.apple{
+    height: 50px;
+    width: 21px;
+}
+
+.apple img:first-child{
+    margin-left: 4px;
+    margin-bottom: -4px;
+}
+
+.person{
+    margin-top: -65px;
+}
+
+.section2{
+    margin-top: 140px;
+}
+
+.rectangle{
+    text-align: center;
+    height: 339px;
+    width: 288px;
+    box-shadow: #B7B7B7;
+    border-top: 12px solid #FF814A;
+    margin-bottom: 29px;
+}
+
+.rectangle img{
+    margin-top: 42px;
+    margin-bottom: 49px;
+}
+
+.rectangle h2{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #333;
+    margin-bottom: 31px;
+}
+
+.rectangle h3{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333;
+}
+
+.rectangle:first-child{
+    border-top: 12px solid #582EFF;
+}
+
+.rectangle:last-child{
+    border-top: 12px solid #31C5A1;
+}
+
+.section3 a{
+    width: 40px;
+    height: 40px;
+    background-color: #582EFF;
+    display: flex;
+    border-radius: 50%;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 .container .row:first-child{
+    justify-content: center;
+}
+
+.section3 h1{
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 50px;
+    color: #333;
+    margin-top: 88px;
+    margin-bottom: 40px;
+}
+
+.section3 .row{
+    align-items: center;
+}
+
+.section4{
+    background-color: #31C5A1;
+    padding: 131px 0 80px 0;
+}
+
+.section4 .row{
+    justify-content: center;
+}
+
+.section4 .col{
+    text-align: center;
+}
+
+.section4 h1{
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+
+.section4 .buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 304px;
+    margin: auto;
+}
+
+.section4 button{
+    background-color: white;
+}
+
+.section4 button .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section4 button .h2{
+    color: #31C5A1;
+}
+
+.section5{
+    padding: 50px 0 55px 0;
+
+}
+.section5 p{
+    padding-top: 5px;
+}
+
+
