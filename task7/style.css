@@ -1,0 +1,27 @@
+*{
+     margin: 0px;
+    padding: 0px;
+}
+body{
+   
+    padding: 3%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: NotoSans-regilur;
+    src: url(FONTS/NotoSans-Bold.ttf);
+}
+.container{ 
+
+  width: 1303px;
+  min-height: 500px;
+  font-family:  NotoSans-regilur; 
+}
+.con{
+    width: 30%;
+    min-height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    display: inline-block;
+    margin: 1.2%;
+   
+}
