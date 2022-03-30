@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(0, 0, 0, 0);
+}
+.container{
+    width: auto;
+    min-height: 600px;
+    background-color: rgba(4, 1, 36, 0.911);
+    margin: 50px; 
+  
+    
+}
+.col{
+
+    background-color: red;
+    width: 380px;
+    height: 250px;
+    float: left;
+    margin-left:  25px;
+    margin-top: 25px;
+}
+.button{
+    background-color: red;
+    width: 150px;
+    height: 35px;
+}
+.back{
+    background-color: rgba(51, 44, 129, 0);
+    
+    width: 380px;
+    height: 250px;
+    float: left;
+    margin-left:  25px;
+    margin-top: 25px;
+  
+}
+.loaded{
+    width: 20px;
+    height: 20px;
+}
